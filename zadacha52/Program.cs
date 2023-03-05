@@ -37,7 +37,7 @@ Console.WriteLine();
 
 string Average (int[,] inputMatrix)
 {   
-    string result = "";
+    string result = String.Empty;
     for (int i = 0; i < inputMatrix.GetLength(1); i++)
     {  
         double resultForCols = 0;
