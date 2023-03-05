@@ -9,7 +9,7 @@ double[,] GetMatrix(int rows, int cols)
     double[,] matrix = new double[rows, cols];
     for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j < cols; j++)// столбцы; cols = matrix.GetLength(1)
+        for (int j = 0; j < cols; j++)
         {
             matrix[i, j] = (new Random().Next(-10, 10) + new Random().NextDouble());
         }
